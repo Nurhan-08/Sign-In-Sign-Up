@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between
+}
+
+.gap-26 {
+    gap: 26px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    color: #524C6F;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.btn-up {
+    background-color: #3AB67D;
+    color: #FFFFFF;
+}
+
+
+
+#icons {
+    text-align: right;
+    display: block;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* modal css */
+
+.modal-sign-in {
+    width: 760px;
+    margin: auto;
+    margin-top: 150px;
+    /* height: 460px; */
+    border: 1px solid red;
+    border-radius: 20px;
+    display: none;
+}
+
+
+.modal-form {
+    width: 380px;
+    padding: 30px;
+    padding-bottom: 47px;
+}
+
+.modal-form h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 15px;
+}
+
+.modal-form p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 25px;
+    color: #AEB4DD;
+}
+
+.modal-form input {
+    width: 100%;
+    padding: 8px 13px;
+    color: #AEB4DD;
+    border: 1px solid #AEB4DD;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    outline: none;
+}
+
+.modal-form .forgot-text {
+    text-align: right;
+    cursor: pointer;
+}
+
+.modal-form button {
+    width: 45%;
+}
+
+.gap-22 {
+    gap: 22px;
+}
+
+
+
+
+
+
+#icons3 {
+    position: absolute;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: -24px
+}
+
+#icons2 {
+    position: absolute;
+    cursor: pointer;
+    margin-top: -94px;
+    margin-left: -24px;
+}
+
+.confirm-p {
+    text-align: left;
+}
+
+.confirm-p input {
+    width: auto;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal-3 {
+    width: 468px;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.modal-3 input {
+    width: 68%;
+    margin-bottom: 18px;
+    padding: 8px 13px;
+    color: #AEB4DD;
+    border: 1px solid #AEB4DD;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    outline: none;
+}
+
+
+.modal-3 h2 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #524C6F;
+}
+
+
+.modal-3 p {
+    color: #AEB4DD;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.modal-3 p.send-p {
+    text-align: right;
+    margin-bottom: 18px;
+    margin-right: 75px;
+}
+
+.forgot-btns {
+    width: 320px;
+    margin: auto;
+}
+
+.forgot-btns button {
+    width: 100%;
+}
